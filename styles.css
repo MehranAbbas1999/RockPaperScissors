@@ -1,0 +1,165 @@
+/*  Editing Tags  */
+body {
+  overflow: scroll;
+  
+}
+
+/*Using IDS here */
+
+#winnerUser
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  color: green;
+  font-family: sans-serif;
+  
+}
+
+#winnerComputer
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  color: green;
+  font-family: sans-serif;
+  
+}
+
+/* Using classes here */
+.about {
+  margin: 1.125rem;
+  font-family: sans-serif normal bold;
+  color: #1b4332;
+  font-size: 1.25rem;
+  background-color: #b7e4c7;
+  border-radius: 0.625rem;
+}
+.aboutLink {
+  text-align: left;
+  text-decoration: none;
+  color: green;
+  font-size: 3.125rem;
+}
+.aboutGame {
+  font-family: sans-serif normal;
+  font-size: 1.875rem;
+  color: #1b4332;
+}
+
+.gameBody {
+  margin: 1.125rem;
+  background-color: #b7e4c7;
+  border-radius: 0.625rem;
+}
+
+.gameTitle {
+  text-align: center;
+  font-family: sans-serif normal bold;
+  color: #1b4332;
+  font-size: 6.25rem;
+  border-radius: 1.25rem;
+  background-color: #b7e4c7;
+}
+
+.listRulesItems {
+  text-align: justify;
+}
+
+.redWord {
+  color: red;
+}
+
+.userInputOptions {
+  text-align: center;
+}
+
+.selectedOption
+{
+    text-align: justify;
+    border: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*  Input Field */
+
+.scoreCounter
+{
+width: 4.375rem;
+font-size: 1.5625rem;
+color: red;
+text-align: center;
+font-weight: bold;
+}
+
+/*  Images  */
+
+.computerInputImgClass
+{
+    width: 12.5rem;
+    background-color: #b7e4c7;
+    border-radius: 2rem;
+    border: solid;
+}
+
+.logo {
+  width: 150px;
+}
+
+.playBtnImg {
+  width: 6.25rem;
+  border: rgb(0, 255, 34);
+  border-radius: 1rem;
+}
+
+.rockImg,
+.scissorImg,
+.paperImg {
+  width: 12.5rem;
+}
+
+.rockImg:hover,
+.scissorImg:hover,
+.paperImg:hover {
+  background-color: #3cb867;
+  border-radius: 2rem;
+  transition: 0.5s;
+}
+
+
+.userInputImgClass
+{
+    width: 12.5rem;
+    background-color: #b7e4c7;
+    border-radius: 2rem;
+    border: solid;
+}
+
+/*  Buttons  */
+
+.playBtn {
+  background-color: #b7e4c7;
+  border: forestgreen;
+  border-radius: 1rem;
+}
+
+.playBtn:active {
+  background-color: #42e67b;
+  border: forestgreen;
+  border-radius: 1rem;
+}
+
+.rockBtn,
+.scissorBtn,
+.paperBtn {
+  background-color: #b7e4c7;
+  border-radius: 2rem;
+}
+
+.rockBtn:active,
+.scissorBtn:active,
+.paperBtn:active {
+  background-color: #42e67b;
+  border-radius: 2rem;
+}

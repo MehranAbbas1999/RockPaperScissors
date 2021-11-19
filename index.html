@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="Script.js"></script>
+    <title>Stone Paper Scissors</title>
+</head>
+
+<body>
+    <div class="gameTitle">
+        <span><img src="Images/logo.png" alt="logo" class="logo" /></span>
+        <span> Rock Paper Scissor</span>
+        <span><img src="Images/logo.png" alt="logo" class="logo" /></span>
+    </div>
+
+    <div class="gameBody">
+        <span> <a href="About.html" class="aboutLink">Click here for Rules</a> </span>
+        <p class="aboutGame">Please select your option and click Green Play button:</p>
+        <div class="userInputOptions">
+            <button class="rockBtn" id="rockID">
+                <img src="Images/rock.png" alt="rock" class="rockImg" onclick="getUserValue(1)" />
+            </button>
+
+            <button class="paperBtn" id="paperID">
+                <img src="Images/paper.png" alt="paper" class="paperImg" onclick="getUserValue(2)" />
+            </button>
+            <button class="scissorBtn" id="scisorID" onclick="getUserValue(3)">
+                <a href="#selected"></a>
+                <img src="Images/scissor.png" alt="scissor" class="scissorImg" />
+            </button>
+
+            <p>
+                <button class="playBtn" onclick="computerInputValue()">
+                    <img src="Images/play.png" alt="playButton" class="playBtnImg" />
+                </button>
+            </p>
+            <p><span class="selectedOption">Total Matches | <input type="number" id="totalMatches" class="scoreCounter"
+                        readonly></span>
+                <span class="selectedOption">| You Won | <input type="number" id="userScore" class="scoreCounter"
+                        readonly></span>
+                <span class="selectedOption"> | Computer Won | <input type="number" id="computerScore" class="scoreCounter"
+                        readonly> | </span>
+                <span class="selectedOption" id="selected"> Tie Matches | <input type="number" id="tieScore"
+                        class="scoreCounter" readonly> | </span>
+            <p>
+                <span id="winnerUser"></span>
+                <img src="" alt="" id="userInputImgID" class="userInputImgClass" />
+
+                <img src="" alt="" id="computerInputImgID" class="computerInputImgClass" />
+                <span id="winnerComputer"></span>
+            </p>
+            </p>
+
+        </div>
+    </div>
+    <div>
+        <br><br><br><br><br><br><br><br><br>
+    </div>
+
+</body>
+
+</html>
