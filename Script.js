@@ -9,7 +9,7 @@ var total = 0;
 
 function getUserValue(X) {
     a = X;
-    window.scrollTo(0, 190);
+    window.scrollTo(0, 500);
    
     if (X == 1) {
         setUserinputImage("Images/rock.png", 210, 210, "rockImg");
